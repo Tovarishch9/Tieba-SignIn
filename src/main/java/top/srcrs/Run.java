@@ -205,7 +205,6 @@ public class Run {
      * @Time 2020-10-31
      */
     /**   public void send(String sckey) {
-       
         String text = "总: " + followNum + " - ";
         text += "成功: " + success.size() + " 失败: " + (followNum - success.size());
         String desp = "共 " + followNum + " 贴吧\n\n";
@@ -231,7 +230,7 @@ public class Run {
         } catch (Exception e) {
             LOGGER.error("server酱发送失败 -- " + e);
         }
-    } 
+    }
 **/
       /**
      * 发送运行结果到微信，通过 PUSHPLUS
